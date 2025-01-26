@@ -2,7 +2,8 @@ name: build and push app
 
 on:
   push:
-    paths:
+    branches:
+      - "main"
   workflow_dispatch:
 
 env:
