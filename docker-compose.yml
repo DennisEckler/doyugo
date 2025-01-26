@@ -1,0 +1,8 @@
+version: "3.8"
+services:
+  cashflow-ui:
+    # image: ghcr.io/denniseckler/cashflow-ui:main
+    image: doyugo
+    container_name: doyugo
+    ports:
+      - "9999:443"
