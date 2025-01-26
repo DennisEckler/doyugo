@@ -1,6 +1,6 @@
 version: "3.8"
 services:
-  cashflow-ui:
+  doyugo:
     # image: ghcr.io/denniseckler/cashflow-ui:main
     image: doyugo
     container_name: doyugo
